@@ -1,0 +1,5 @@
+{
+  "*.js": "eslint --cache --fix",
+  "*.css": "stylelint --fix",
+  "*.php": "vendor/bin/sail run laravel.test vendor/bin/php-cs-fixer fix"
+}
